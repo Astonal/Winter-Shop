@@ -1,0 +1,85 @@
+122-2-31 19:34:17 SELECT * FROM commodity
+122-2-31 19:34:24 SELECT * FROM commodity WHERE gname CONTAINS ee
+122-2-31 19:34:26 UPDATE commodity SET gcondition = removed WHERE gid = ee
+122-2-31 19:34:27 SELECT * FROM order
+122-2-31 19:34:28 SELECT * FROM user
+122-2-31 19:34:32 UPDATE commodity SET gcondition = removed WHERE guid = ee
+122-2-31 19:34:32 UPDATE user SET ucondition = inactive WHERE uid = ee
+122-2-31 19:35:22 INSERT INTO commodity VALUES (M001 dolls 15 80 happy! U001 122-2-31 onsale)
+122-2-31 19:35:44 INSERT INTO commodity VALUES (M002 extra 10 40 dd U001 122-2-31 onsale)
+122-2-31 19:35:45 SELECT * FROM commodity
+122-2-31 19:36:13 UPDATE commodity SET gprice = 20 WHERE gid = M002
+122-2-31 19:38:45 SELECT * FROM order
+122-2-31 19:40:32 SELECT * FROM commodity
+122-2-31 19:40:56 INSERT INTO order VALUES (T001 M001 15 10 122-2-31 U001 U002)
+122-2-31 19:40:56 UPDATE commodity SET gnum = 70 WHERE gid = M001
+122-2-31 19:41:10 INSERT INTO order VALUES (T002 M002 20 2 122-2-31 U001 U002)
+122-2-31 19:41:10 UPDATE commodity SET gnum = 38 WHERE gid = M002
+122-2-31 19:41:14 SELECT * FROM order
+122-2-31 19:41:17 SELECT * FROM commodity
+122-2-31 19:41:29 SELECT * FROM commodity WHERE gname CONTAINS d
+122-2-31 19:41:34 SELECT * FROM commodity WHERE gid CONTAINS M001
+122-2-31 19:47:40 SELECT * FROM commodity
+2022-3-31 21:37:11 SELECT * FROM commodity
+2022-3-31 21:37:20 SELECT * FROM commodity WHERE gname CONTAINS d
+2022-3-31 21:41:6 UPDATE commodity SET gcondition = removed WHERE gid = M001
+2022-3-31 21:43:58 UPDATE commodity SET gcondition = removed WHERE gid = M001
+2022-3-31 21:45:1 UPDATE commodity SET gcondition = removed WHERE gid = M001
+2022-3-31 21:45:37 UPDATE commodity SET gcondition = removed WHERE gid = M001
+2022-3-31 21:46:40 UPDATE commodity SET gcondition = removed WHERE gid = M001
+2022-3-31 21:47:15 SELECT * FROM order
+2022-3-31 21:47:16 SELECT * FROM user
+2022-3-31 21:48:11 UPDATE commodity SET gcondition = removed WHERE guid = U001
+2022-3-31 21:48:11 UPDATE user SET ucondition = inactive WHERE uid = U001
+2022-3-31 21:50:14 SELECT * FROM user
+2022-3-31 21:50:18 UPDATE commodity SET gcondition = removed WHERE guid = U001
+2022-3-31 21:50:18 UPDATE user SET ucondition = inactive WHERE uid = U001
+2022-3-31 21:51:2 SELECT * FROM user
+2022-3-31 21:51:5 UPDATE commodity SET gcondition = removed WHERE guid = U001
+2022-3-31 21:51:5 UPDATE user SET ucondition = inactive WHERE uid = U001
+2022-3-31 22:2:24 INSERT INTO commodity VALUES (M003 Folklore 20.0 10 good!! U001 2022-3-31 onsale)
+2022-3-31 22:4:12 SELECT * FROM commodity
+2022-3-31 22:4:55 UPDATE commodity SET gdes = better.than.ever! WHERE gid = M003
+2022-3-31 22:6:11 SELECT * FROM order
+2022-3-31 22:9:22 SELECT * FROM commodity
+2022-3-31 22:11:34 SELECT * FROM commodity
+2022-3-31 22:11:44 SELECT * FROM commodity WHERE gname CONTAINS M003
+2022-3-31 22:11:50 SELECT * FROM commodity WHERE gname CONTAINS d
+2022-3-31 22:11:55 UPDATE commodity SET gcondition = removed WHERE gid = M003
+2022-3-31 22:11:59 SELECT * FROM commodity
+2022-3-31 22:12:1 SELECT * FROM order
+2022-3-31 22:12:3 SELECT * FROM user
+2022-3-31 22:12:8 UPDATE commodity SET gcondition = removed WHERE guid = e
+2022-3-31 22:12:8 UPDATE user SET ucondition = inactive WHERE uid = e
+2022-3-31 22:12:16 SELECT * FROM commodity
+2022-3-31 22:12:27 SELECT * FROM order
+2022-3-31 22:28:21 SELECT * FROM commodity
+2022-3-31 22:28:33 INSERT INTO order VALUES (T003 M003 20.0 1 2022-3-31 U001 U001)
+2022-3-31 22:28:33 UPDATE commodity SET gnum = 9 WHERE gid = M003
+2022-3-31 22:29:54 SELECT * FROM commodity
+2022-3-31 22:29:59 INSERT INTO order VALUES (T004 M001 15 1 2022-3-31 U001 U002)
+2022-3-31 22:29:59 UPDATE commodity SET gnum = 69 WHERE gid = M001
+2022-3-31 22:36:3 SELECT * FROM commodity
+2022-3-31 22:38:13 SELECT * FROM commodity
+2022-3-31 22:38:18 INSERT INTO order VALUES (T005 M003 20.0 1 2022-3-31 U001 U002)
+2022-3-31 22:38:18 UPDATE commodity SET gnum = 8 WHERE gid = M003
+2022-3-31 22:42:49 SELECT * FROM commodity WHERE gname CONTAINS F
+2022-3-31 22:42:59 SELECT * FROM commodity WHERE gname CONTAINS re
+2022-3-31 22:43:1 SELECT * FROM order
+2022-3-31 22:44:8 SELECT * FROM commodity WHERE gid CONTAINS M003
+2022-4-2 9:5:20 INSERT INTO commodity VALUES (M004 comb 10.0 10 des U004 2022-4-2 onsale)
+2022-4-2 9:5:30 SELECT * FROM commodity
+2022-4-2 9:5:41 UPDATE commodity SET gprice = 11 WHERE gid = M004
+2022-4-2 9:6:11 SELECT * FROM commodity
+2022-4-2 9:6:23 UPDATE commodity SET gprice = 14.0 WHERE gid = M004
+2022-4-2 9:6:25 SELECT * FROM commodity
+2022-4-2 9:7:2 UPDATE commodity SET gprice = 15.8 WHERE gid = M004
+2022-4-2 9:7:3 SELECT * FROM commodity
+2022-4-2 9:7:22 UPDATE commodity SET gprice = 10 WHERE gid = M004
+2022-4-2 9:42:11 SELECT * FROM commodity
+2022-4-2 9:42:27 INSERT INTO order VALUES (T006 M003 20.0 2 2022-4-2 U001 U005)
+2022-4-2 9:42:27 UPDATE commodity SET gnum = 6 WHERE gid = M003
+2022-4-2 9:42:32 INSERT INTO order VALUES (T007 M003 20.0 2 2022-4-2 U001 U005)
+2022-4-2 9:42:32 UPDATE commodity SET gnum = 4 WHERE gid = M003
+2022-4-2 10:29:35 SELECT * FROM commodity
+2022-4-2 10:29:41 UPDATE commodity SET gcondition = removed WHERE gid = M003

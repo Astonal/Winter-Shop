@@ -1,0 +1,6 @@
+U001 USER 1 135000 NJU 135 active
+U002 uu 1 346 a 1913 active
+U003 user 123 123456789 nju 0 active
+U004 usera 111111 11111111 aaa 0 active
+U005 h 1 1 d 0 active
+U006 nju 111 111 aaa 0 active
